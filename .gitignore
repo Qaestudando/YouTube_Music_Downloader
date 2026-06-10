@@ -1,0 +1,27 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code
+.vscode/
+
+# Banco local de downloads
+downloads.json
+
+# Arquivos temporários
+*.log
+
+# Builds
+dist/
+build/
+
+# PyInstaller
+*.spec
