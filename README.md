@@ -1,32 +1,45 @@
-# YouTube Music Downloader
+# 🎵 YouTube Music Downloader
 
-Aplicativo em Python com interface gráfica para pesquisar e baixar músicas do YouTube em formato MP3.
+Aplicação em Python para pesquisar e baixar músicas do YouTube em MP3 através de uma interface gráfica moderna.
 
-## Recursos
+## Recursos atuais
 
-- Pesquisa por artista, música ou álbum
-- Download de músicas selecionadas
-- Conversão automática para MP3
-- Interface em CustomTkinter
-- Organização dos downloads por pastas
-- Planejado:
-  - Download de playlists
-  - Download de álbuns completos
-  - Geração de executável (.exe)
+- Pesquisa por artista ou música
+- Seleção múltipla
+- Download em MP3
+- Conversão automática usando FFmpeg
+- Interface gráfica com CustomTkinter
+- Evita downloads duplicados
 
-## Requisitos
+## Em desenvolvimento
 
-- Python 3.12+
-- FFmpeg instalado e disponível no PATH
+- Download de playlists
+- Download automático de álbuns completos
+- Miniaturas
+- Organização automática por artista/álbum
 
 ## Instalação
+
+### Clone o projeto
+
+```bash
+git clone https://github.com/SEU_USUARIO/youtube-music-downloader.git
+cd youtube-music-downloader
+```
+
+### Instale as dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Execução
+### Execute
 
 ```bash
 python app.py
 ```
+
+## Dependências
+
+- Python 3.12+
+- FFmpeg instalado no sistema
